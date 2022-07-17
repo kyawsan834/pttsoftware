@@ -1,0 +1,26 @@
+git --version (checked in cmd)
+git (checked in cmd)
+
+ssh-keygen
+enter
+enter
+enter
+
+ssh -T git@github.com (check ssh keygen is correct or not)
+git config --global user.name "kyawsan84yay"
+git config --global user.email "kyawsan84yay@gmail.com"
+
+check user and email
+
+git config user.name
+git config user.email
+
+git init (git install in your main project folder)
+
+git remote add origin git@github.com:kyawsan84yay/pttsoftware.git
+git remote -v
+
+git status
+git add -A
+git commit -m "26 may 2022"
+git push -u origin master

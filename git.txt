@@ -1,0 +1,32 @@
+git --version
+git(check git version)
+
+ssh-keygen
+enter
+enter
+enter
+
+ssh -T git@github.com (check ssh keygen if correct "message is : 'Hi kyawsan84yay! You've successfully authenticated, but GitHub does not provide shell access.
+'")
+git config --global user.name "kyawsan84yay"
+git config --global user.email "kyawsan84yay@gmail.com"
+
+check uesrname and password
+=========================
+git config user.name
+git config user.email
+
+if username and email wrong you can edit 
+===================================
+git config --global user.name "kyawsan84yay"
+git config --global user.email "kyawsan84yay@gmail.com"
+
+linked with github repositories
+============================
+git remote add origin git@github.com:kyawsan84yay/pttsoftware.git
+git remote -v (check connected repositories)
+
+ready to upload our project files on your github
+==========================================
+git status (checking files)
+git add -A (add project files to github)
