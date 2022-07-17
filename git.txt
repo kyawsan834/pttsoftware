@@ -23,10 +23,19 @@ git config --global user.email "kyawsan84yay@gmail.com"
 
 linked with github repositories
 ============================
-git remote add origin git@github.com:kyawsan84yay/pttsoftware.git
+git remote add origin git@github.com:kyawsan84yay/pttsoftware.git (only 1 times)
 git remote -v (check connected repositories)
 
 ready to upload our project files on your github
 ==========================================
-git status (checking files)
+git status (checking files upload or not (if files is not upload on github, files is showing red, else files is showing green))
 git add -A (add project files to github)
+git commit -m "26 May 2022" (adding with commit, commit means mark)
+git push -u origin master (start git upload code)
+
+editing project and reupload on github
+==========================================
+git status (checking files upload or not (if files is not upload on github, files is showing red, else files is showing green))
+git add -A (add project files to github)
+git commit -m "26 May 2022" (adding with commit, commit means mark)
+git push -u origin master (start git upload code)
